@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/flBack"
+    android:background="@drawable/background"
+    tools:context="com.example.darsh.sensors.MainActivity">
+
+    <ImageView
+        android:id="@+id/ivBall"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ball"></ImageView>
+</FrameLayout>
